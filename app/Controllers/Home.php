@@ -63,4 +63,8 @@ class Home extends BaseController
     {
         return view('v_contact');
     }
+    public function transaksi()
+    {
+        return view('v_transaksi');
+    }
 }
